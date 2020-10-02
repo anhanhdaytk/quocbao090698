@@ -1,0 +1,114 @@
+@font-face{
+    font-family: "slider";
+    src: url("../font/hlt_gulyesa_script/HLT\ GulyesaScript.ttf");
+}
+@font-face{
+    font-family: "roboto Slad";
+    src: url("../font/Roboto_Slab/RobotoSlab-VariableFont_wght.ttf");
+}
+div{
+    div.slider{
+        background-image: url("../image/slider1.png");
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        div{
+            color: #ffffff;
+            padding: 40px 47px 75px 50px;
+            h1.h1-one{
+                font-family: "roboto Slad";
+                font-size: 67px;
+            }
+            h1.h1-two{
+                font-family: "slider";
+                font-size: 103.38px;
+            }
+            i.i-three{
+                font-size: 18px;
+            }
+        }
+    }
+    div.slider2{
+        background-image: url("../image/slider1.png");
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+    }
+    div.slider3{
+        background-image: url("../image/slider1.png");
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+    }
+}
+// dot boostrap
+div.slick-slider{
+    &:focus{
+        outline: 0;
+    }
+    ul.slick-dots{
+        li{
+            padding: 40px 0;
+            button:before{
+                font-size: 15px;
+                color: #ffffff;
+                opacity: 2;
+            }
+        }
+        li.slick-active{
+            button:before{
+                color: #59b586;
+            }
+        }
+    }
+}
+
+
+// REPONSIVE ===================================>
+@media screen and (max-width: 768px) {
+    div{
+        div.slider{
+            background-image: url("../image/slider1.png");
+            background-repeat: no-repeat;
+            background-size: 100% 100%;
+            div{
+                padding: 38px 0;
+                h1.h1-one{
+                    display: none;
+                }
+                h1.h1-two{
+                    display: none;
+                }
+                i.i-three{
+                    display: none;
+                }
+            }
+        }
+        div.slider2{
+            background-image: url("../image/slider1.png");
+            background-repeat: no-repeat;
+            background-size: 100% 100%;
+        }
+        div.slider3{
+            background-image: url("../image/slider1.png");
+            background-repeat: no-repeat;
+            background-size: 100% 100%;
+        }
+    }
+    // dot boostrap
+    div.slick-slider{
+        ul.slick-dots{
+            li{
+                padding: 25px 0;
+                button:before{
+                    font-size: 12px;
+                    color: #ffffff;
+                    opacity: 2;
+                }
+            }
+            li.slick-active{
+                button:before{
+                    color: #59b586;
+                }
+            }
+        }
+    }
+
+}

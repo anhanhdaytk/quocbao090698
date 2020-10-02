@@ -1,0 +1,161 @@
+@font-face {
+  font-family: "arial";
+  src: url("../font/arial.ttf"); }
+.section-cart {
+  margin-bottom: 150px; }
+  .section-cart__title-cart {
+    margin: 95px 0 75px 0;
+    color: #68ba8f;
+    font-family: "arial";
+    font-style: bold; }
+  .section-cart__table {
+    text-align: center;
+    margin-bottom: 0;
+    border: 1px solid #c2c2c2; }
+    .section-cart__table td {
+      vertical-align: middle; }
+    .section-cart__table .bg-title {
+      background-color: #3fb871;
+      font-size: 14px;
+      font-family: "arial";
+      color: #ffffff; }
+      .section-cart__table .bg-title .img-title {
+        width: 190px;
+        padding: 14px 0;
+        border-right: 1px solid #c2c2c2; }
+      .section-cart__table .bg-title .name-title {
+        width: 270px;
+        padding: 14px 0;
+        border-right: 1px solid #c2c2c2; }
+      .section-cart__table .bg-title .price-title {
+        width: 160px;
+        padding: 14px 0;
+        border-right: 1px solid #c2c2c2; }
+      .section-cart__table .bg-title .qty-title {
+        width: 150px;
+        padding: 14px 0;
+        border-right: 1px solid #c2c2c2; }
+      .section-cart__table .bg-title .total-title {
+        width: 250px;
+        padding: 14px 0;
+        border-right: 1px solid #c2c2c2; }
+      .section-cart__table .bg-title .remove-title {
+        width: 120px;
+        padding: 14px 0;
+        border-right: 1px solid #c2c2c2; }
+    .section-cart__table .cart-content .cart-image {
+      border-right: 1px solid #ebebeb; }
+      .section-cart__table .cart-content .cart-image img {
+        width: 150px;
+        height: 150px; }
+    .section-cart__table .cart-content .cart-name {
+      font-family: "arial";
+      color: #68ba8f;
+      border-right: 1px solid #ebebeb; }
+    .section-cart__table .cart-content .cart-price {
+      font-family: "arial";
+      color: #898989;
+      border-right: 1px solid #ebebeb; }
+    .section-cart__table .cart-content .cart-qty {
+      border-right: 1px solid #ebebeb; }
+      .section-cart__table .cart-content .cart-qty .inputt {
+        width: 45px;
+        height: 45px;
+        border: 1px solid #c2c2c2;
+        text-align: center;
+        font-size: 18px;
+        font-family: "arial";
+        color: #898989; }
+        .section-cart__table .cart-content .cart-qty .inputt:focus {
+          outline: 0; }
+    .section-cart__table .cart-content .cart-remove {
+      color: #898989; }
+  .section-cart__button-cart .button-cart-group {
+    text-align: right; }
+    .section-cart__button-cart .button-cart-group .btn-form {
+      width: 150px;
+      height: 45px;
+      border: 1px solid #68ba8f;
+      font-family: "arial";
+      border-top-left-radius: 50px;
+      border-bottom-left-radius: 50px;
+      border-top-right-radius: 50px;
+      border-bottom-right-radius: 50px;
+      margin-bottom: 0;
+      margin: 45px 5px 70px 15px;
+      background-color: #3fb871;
+      transition: background-color 1s;
+      text-decoration: none;
+      font-size: 12px;
+      line-height: 35px;
+      color: #ffffff; }
+      .section-cart__button-cart .button-cart-group .btn-form:hover {
+        background-color: #ffffff;
+        color: #68ba8f; }
+  .section-cart__table-total {
+    border: 1px solid #ebebeb; }
+    .section-cart__table-total .total-without-tax .title-total {
+      border-right: 1px solid #ebebeb;
+      padding: 32px;
+      font-family: "arial";
+      font-size: 14px;
+      font-style: bold;
+      color: #68ba8f; }
+    .section-cart__table-total .total-without-tax .total-price {
+      padding: 32px;
+      font-family: "arial";
+      font-size: 14px;
+      font-style: bold;
+      color: #68ba8f; }
+    .section-cart__table-total .total-tax .title-total {
+      border-right: 1px solid #ebebeb;
+      padding: 32px;
+      font-family: "arial";
+      font-size: 14px;
+      font-style: bold;
+      color: #68ba8f; }
+    .section-cart__table-total .total-tax .total-price {
+      padding: 32px;
+      font-family: "arial";
+      font-size: 14px;
+      font-style: bold;
+      color: #68ba8f; }
+    .section-cart__table-total .bg-total {
+      background-color: #3fb871; }
+      .section-cart__table-total .bg-total .total-title {
+        border-right: 1px solid #ebebeb;
+        padding: 32px;
+        font-family: "arial";
+        font-size: 14px;
+        font-style: bold;
+        color: #68ba8f;
+        color: #ffffff; }
+      .section-cart__table-total .bg-total .total-price {
+        padding: 32px;
+        font-family: "arial";
+        font-size: 14px;
+        font-style: bold;
+        color: #68ba8f;
+        color: #ffffff; }
+  .section-cart__button-total .button-cart-group {
+    text-align: right; }
+    .section-cart__button-total .button-cart-group .btn-form {
+      width: 150px;
+      height: 45px;
+      border: 1px solid #68ba8f;
+      font-family: "arial";
+      border-top-left-radius: 50px;
+      border-bottom-left-radius: 50px;
+      border-top-right-radius: 50px;
+      border-bottom-right-radius: 50px;
+      margin-bottom: 0;
+      margin: 45px 5px 70px 15px;
+      background-color: #3fb871;
+      transition: background-color 1s;
+      text-decoration: none;
+      font-size: 12px;
+      line-height: 35px;
+      color: #ffffff; }
+      .section-cart__button-total .button-cart-group .btn-form:hover {
+        background-color: #ffffff;
+        color: #68ba8f; }

@@ -1,0 +1,195 @@
+@font-face{
+  font-family: "arial";
+  src: url("../font/arial.ttf");
+}
+@font-face{
+  font-family: "roboto";
+  src: url("../font/roboto-font/Roboto-Regular.ttf");
+}
+@font-face{
+  font-family: "roboto-italic";
+  src: url("../font/roboto-font/Roboto-LightItalic.ttf");
+}
+.section-signup{
+    &__wrap{
+      margin-bottom: 100px;
+        &--title{
+            font-family: "arial";
+            color: #68ba8f;
+            font-style: bold;
+            margin: 65px 0 15px 0;
+        }
+        &--left{
+          margin-bottom: 10px;
+          .title-input{
+            font-family: "arial";
+            font-size: 12px;
+            color: #898989; 
+            .item-input{
+              color: #f3686d;
+            }
+          }
+          .inputt{
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ebebeb;
+            &:focus{
+              outline: 0;
+            }
+          }
+        }
+
+        &--right{
+          .title-input{
+            font-family: "arial";
+            font-size: 12px;
+            color: #898989; 
+            .item-input{
+              color: #f3686d;
+            }
+          }
+          .inputt{
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ebebeb;
+            &:focus{
+              outline: 0;
+            }
+          }
+        }
+        &--button{
+          .button-signup-group{
+            .btn-form{
+              width: 150px;
+              height: 45px;
+              border: 1px solid #68ba8f;
+              font-family: "arial";
+              border-top-left-radius: 50px;
+              border-bottom-left-radius: 50px;
+              border-top-right-radius: 50px;
+              border-bottom-right-radius: 50px;
+              margin-bottom: 0;
+              margin: 25px 20px 0 0;
+              background-color: #3fb871;
+              transition: background-color 1s;
+              .btn-text{
+                text-decoration: none;
+                font-size: 13px;
+                color: #ffffff;
+              }
+              &:hover{
+                background-color: #ffffff;
+                .btn-text{
+                  color: #68ba8f;
+                }   
+              }
+            }
+          }
+        }
+    }
+}
+// end signup==================================
+.section-signin{
+  &__wrap{
+    margin-bottom: 100px;
+    &--left{
+      .title{
+        font-family: "arial";
+        color: #68ba8f;
+        font-style: bold;
+        margin: 65px 0 15px 0;
+      }
+      .title-input{
+        font-family: "arial";
+        font-size: 12px;
+        color: #363533; 
+        .item-input{
+          color: #f3686d;
+        }
+      }
+      .inputt{
+        width: 100%;
+        padding: 10px;
+        border: 1px solid #ebebeb;
+        &:focus{
+          outline: 0;
+        }
+      }
+      .title-check{
+        font-family: "roboto";
+        font-size: 12px;
+        color: #292929;
+      }   
+      .forget{
+        font-family: "roboto-italic";
+        font-size: 12px;
+        color: #898989;
+        text-decoration:underline ;
+        margin-left: 25px;
+      }  
+      .btn-signin{
+        width: 150px;
+        height: 45px;
+        border: 1px solid #68ba8f;
+        font-family: "arial";
+        border-top-left-radius: 50px;
+        border-bottom-left-radius: 50px;
+        border-top-right-radius: 50px;
+        border-bottom-right-radius: 50px;
+        margin-bottom: 0;
+        margin: 25px 20px 0 0;
+        background-color: #3fb871;
+        transition: background-color 1s;
+        .btn-text{
+          text-decoration: none;
+          font-size: 13px;
+          color: #ffffff;
+        }
+        &:hover{
+          background-color: #ffffff;
+          .btn-text{
+            color: #68ba8f;
+          }   
+        }
+      }     
+    }
+    &--right{
+      .title{
+        font-family: "arial";
+        color: #68ba8f;
+        font-style: bold;
+        margin: 65px 0 15px 0;
+      }
+      .content{
+        font-family: "arial";
+        font-size: 12px;
+        color: #636363;
+      }
+      .btn-signup{
+        width: 150px;
+        height: 45px;
+        border: 1px solid #68ba8f;
+        font-family: "arial";
+        border-top-left-radius: 50px;
+        border-bottom-left-radius: 50px;
+        border-top-right-radius: 50px;
+        border-bottom-right-radius: 50px;
+        margin-bottom: 0;
+        margin: 25px 20px 0 0;
+        background-color: #3fb871;
+        transition: background-color 1s;
+        .btn-text{
+          text-decoration: none;
+          font-size: 13px;
+          color: #ffffff;
+        }
+        &:hover{
+          background-color: #ffffff;
+          .btn-text{
+            color: #68ba8f;
+          }   
+        }
+      }
+    }
+  }
+}

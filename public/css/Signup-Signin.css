@@ -1,0 +1,144 @@
+@font-face {
+  font-family: "arial";
+  src: url("../font/arial.ttf"); }
+@font-face {
+  font-family: "roboto";
+  src: url("../font/roboto-font/Roboto-Regular.ttf"); }
+@font-face {
+  font-family: "roboto-italic";
+  src: url("../font/roboto-font/Roboto-LightItalic.ttf"); }
+.section-signup__wrap {
+  margin-bottom: 100px; }
+  .section-signup__wrap--title {
+    font-family: "arial";
+    color: #68ba8f;
+    font-style: bold;
+    margin: 65px 0 15px 0; }
+  .section-signup__wrap--left {
+    margin-bottom: 10px; }
+    .section-signup__wrap--left .title-input {
+      font-family: "arial";
+      font-size: 12px;
+      color: #898989; }
+      .section-signup__wrap--left .title-input .item-input {
+        color: #f3686d; }
+    .section-signup__wrap--left .inputt {
+      width: 100%;
+      padding: 10px;
+      border: 1px solid #ebebeb; }
+      .section-signup__wrap--left .inputt:focus {
+        outline: 0; }
+  .section-signup__wrap--right .title-input {
+    font-family: "arial";
+    font-size: 12px;
+    color: #898989; }
+    .section-signup__wrap--right .title-input .item-input {
+      color: #f3686d; }
+  .section-signup__wrap--right .inputt {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ebebeb; }
+    .section-signup__wrap--right .inputt:focus {
+      outline: 0; }
+  .section-signup__wrap--button .button-signup-group .btn-form {
+    width: 150px;
+    height: 45px;
+    border: 1px solid #68ba8f;
+    font-family: "arial";
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    margin-bottom: 0;
+    margin: 25px 20px 0 0;
+    background-color: #3fb871;
+    transition: background-color 1s; }
+    .section-signup__wrap--button .button-signup-group .btn-form .btn-text {
+      text-decoration: none;
+      font-size: 13px;
+      color: #ffffff; }
+    .section-signup__wrap--button .button-signup-group .btn-form:hover {
+      background-color: #ffffff; }
+      .section-signup__wrap--button .button-signup-group .btn-form:hover .btn-text {
+        color: #68ba8f; }
+
+.section-signin__wrap {
+  margin-bottom: 100px; }
+  .section-signin__wrap--left .title {
+    font-family: "arial";
+    color: #68ba8f;
+    font-style: bold;
+    margin: 65px 0 15px 0; }
+  .section-signin__wrap--left .title-input {
+    font-family: "arial";
+    font-size: 12px;
+    color: #363533; }
+    .section-signin__wrap--left .title-input .item-input {
+      color: #f3686d; }
+  .section-signin__wrap--left .inputt {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ebebeb; }
+    .section-signin__wrap--left .inputt:focus {
+      outline: 0; }
+  .section-signin__wrap--left .title-check {
+    font-family: "roboto";
+    font-size: 12px;
+    color: #292929; }
+  .section-signin__wrap--left .forget {
+    font-family: "roboto-italic";
+    font-size: 12px;
+    color: #898989;
+    text-decoration: underline;
+    margin-left: 25px; }
+  .section-signin__wrap--left .btn-signin {
+    width: 150px;
+    height: 45px;
+    border: 1px solid #68ba8f;
+    font-family: "arial";
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    margin-bottom: 0;
+    margin: 25px 20px 0 0;
+    background-color: #3fb871;
+    transition: background-color 1s; }
+    .section-signin__wrap--left .btn-signin .btn-text {
+      text-decoration: none;
+      font-size: 13px;
+      color: #ffffff; }
+    .section-signin__wrap--left .btn-signin:hover {
+      background-color: #ffffff; }
+      .section-signin__wrap--left .btn-signin:hover .btn-text {
+        color: #68ba8f; }
+  .section-signin__wrap--right .title {
+    font-family: "arial";
+    color: #68ba8f;
+    font-style: bold;
+    margin: 65px 0 15px 0; }
+  .section-signin__wrap--right .content {
+    font-family: "arial";
+    font-size: 12px;
+    color: #636363; }
+  .section-signin__wrap--right .btn-signup {
+    width: 150px;
+    height: 45px;
+    border: 1px solid #68ba8f;
+    font-family: "arial";
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    margin-bottom: 0;
+    margin: 25px 20px 0 0;
+    background-color: #3fb871;
+    transition: background-color 1s; }
+    .section-signin__wrap--right .btn-signup .btn-text {
+      text-decoration: none;
+      font-size: 13px;
+      color: #ffffff; }
+    .section-signin__wrap--right .btn-signup:hover {
+      background-color: #ffffff; }
+      .section-signin__wrap--right .btn-signup:hover .btn-text {
+        color: #68ba8f; }

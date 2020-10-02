@@ -1,0 +1,258 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+@font-face{
+    font-family: "open sans";
+    src: url("../font/Open_Sans/OpenSans-Regular.ttf");
+}
+
+div.header-top{ 
+    background-color: #202020;
+    div{  
+        ul.header-time{
+            display: inline-block;
+            margin-bottom: 0px;
+            li{
+                list-style: none;
+                font-size: 12px;
+                display: inline-block;
+                color: #898989;
+                padding: 0px 5px;
+            }
+        }
+        ul.icon-social{
+            display: inline-block;
+            margin-bottom: 0px;
+            margin-left: 5px;
+            li.social-header{
+                &:first-child{
+                    border-left: 1px solid #2b2b2b;
+                    border-right: none;
+                }
+                &:nth-child(2){
+                    border-left: 1px solid #2b2b2b;
+                    border-right: none;
+                }
+                &:nth-child(3){
+                    border-left: 1px solid #2b2b2b;
+                    border-right: none;
+                }
+                list-style: none;
+                display: inline-block;
+                color: #898989;
+                padding: 4px 12px;
+                border-left: 1px solid #2b2b2b;
+                border-right: 1px solid #2b2b2b;
+            }
+        }
+    }
+
+    div.account{
+        text-align: right;
+        color: #898989;
+        margin-top: 3px;
+        // position: relative;
+        a{  
+            &:first-child{
+                border-left: 1px solid #2b2b2b;
+                border-right: 1px solid #2b2b2b;
+                padding: 8px 19px;
+            }
+            &:nth-child(2){
+                border-left: none;
+                border-right: 1px solid #2b2b2b;
+                padding: 8px 18px;
+            }
+            text-decoration: none;
+            font-size: 12px;
+            color: #898989;
+        }
+    }
+}
+// header-top
+div.content-header{
+    background-image: url("../image/bg-header.png");
+    div.header-phone-search{
+        
+        margin: auto;
+        div.header-phone{
+            margin-left: 15px;
+            font-family: "open sans";
+            font-size: 14px;
+            color: #7d7d7d;
+        }
+        div.header-search{
+            form.form-inline{
+                width: 100%;
+                div.input-group{
+                    width: 100%;
+                    .form-control{  
+                        &::placeholder{
+                            color: #c2c2c2;
+                            font-size: 14px;
+                        }
+                        &:focus{
+                            box-shadow: none;
+                        }
+                        border-top-left-radius: 50px;
+                        border-bottom-left-radius: 50px;
+                        border: none;
+                        margin-bottom: 0;
+                        height: 40px;
+                    }
+                    .input-group-text{
+                        border-top-right-radius: 50px;
+                        border-bottom-right-radius: 50px;
+                        width: 100%;
+                        border: none;
+                        border-left: 1px solid #ebebeb;
+                        margin-bottom: 0;
+                        height: 40px;
+                        color: #898989;
+                        background-color: #ffffff;
+                    }
+                }
+            }
+        }
+    }
+    div.cart{
+        margin: auto;
+        .link-cart{
+            text-decoration: none;
+            font-size: 15px;
+            color: #202020;
+        }
+    }
+}
+// content header
+div.bottom-header{
+    background-color: #3fb871;
+    
+    nav{
+        padding: 0;
+        div.hidden-menu{
+            ul{
+                display: none;
+                li{
+                    display: none;
+                    margin-left: 10px;
+                }
+            }
+            
+        }
+    }
+    .navbar-light{
+        .navbar-toggler{
+            font-size: 14px;
+            color: #ffffff;
+            padding: 10px;
+            border: none;
+        }   
+    }
+    .navbar-light .navbar-nav .active .nav-link{
+        color: #ffffff;
+        font-size: 14px;
+        padding: 14px 24px;
+        background-color: #36a66d;
+    }
+    .navbar-light .navbar-nav .nav-link{
+        &:hover{
+            background-color: #36a66d;
+        }
+        font-size: 14px;
+        padding: 14px 22px;
+        color: #ffffff;
+    }
+}
+
+
+
+
+
+// REPONSIVE  <============================================================================================================>
+@media screen and (max-width: 992px) {
+    div.header-top{ 
+        div{  
+            ul.header-time{
+                display: none;
+            }
+        }
+    }
+    // header-top
+    div.content-header{
+        text-align: center;
+        div.header-phone-search{
+            display: none;
+        }
+        div.cart{
+            display: none;
+        }
+    }
+    // content header
+    div.bottom-header{
+        nav{
+            div.hidden-menu{
+                ul{
+                    display: inline-block;
+                    li.hidden-li{
+                        display: none;
+                    }
+                    li{
+                        display: inline-block;
+                    }
+                }
+                
+            }
+        }
+    }
+}
+// ----=========================================================================================
+@media screen and (max-width: 768px) {
+    div.header-top{ 
+        display: none;
+    }
+    // header-top
+    div.content-header{
+        img.logo{
+            margin: 20px;
+        }
+        img.hidden-beside{
+            display: none;
+        }
+        
+    }
+    // content header
+    div.bottom-header{
+        nav{
+            div.hidden-menu{
+                ul{
+                    display: inline-block;
+                    li.hidden-li{
+                        display: inline-block;
+                    }
+                    li{
+                        display: inline-block;
+                    }
+                }
+                
+            }
+        }
+    }
+}
+// ==========================================================320px==================================================
+@media screen and (max-width: 320px) {
+    div.content-header{
+        img.logo{
+            width: 200px;
+            margin: 20px 0;
+        }        
+    }
+    // =====
+    div.bottom-header{
+        .navbar-light .navbar-nav .nav-link{
+            padding: 14px 15px;
+        }
+    }
+}
+

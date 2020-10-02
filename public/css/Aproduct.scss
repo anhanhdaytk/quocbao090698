@@ -1,0 +1,208 @@
+@font-face{
+    font-family: "arial";
+    src: url("../font/arial.ttf");
+}
+@font-face{
+    font-family: "roboto Slad";
+    src: url("../font/Roboto_Slab/RobotoSlab-VariableFont_wght.ttf");
+}
+div.aproduct{
+    border: 1px solid #e1e1e1;
+    text-align: center;
+    margin-top: 30px;
+    // padding: 18px 0;
+    div.img-product{
+        position: relative;
+        width: 100%;
+        img{
+            display: block;
+            width: 100%;
+            height: auto;
+        }
+        div.Buybtn{
+            position: absolute;
+            top: 0;
+            left: 0;
+            height: 100%;
+            width: 100%;
+            opacity: 0;
+            transition: 0.5s ease;
+            background-color: rgba(0, 0, 0, 0.25);
+            div.buttonbuy{
+                position: absolute;
+                top: 55%;
+                left: 50%;
+                -webkit-transform: translate(-50%, -50%);
+                -ms-transform: translate(-50%, -50%);
+                transform: translate(-50%, -50%);
+                text-align: center;
+            }
+        }
+    }
+    div.detail-product{
+        width: 100%;
+        padding: 18px 0 20px 0;
+        h6{
+            font-family: "arial";
+            color: #555555;
+            margin-bottom: 0;
+        }
+        div.ratings{
+          display: flex;
+          justify-content: center;
+        }
+        span{
+            font-size: 18px;
+            font-family: "roboto Slad";
+            color: #ed1c24;
+            strike{
+                font-size: 14px;
+                font-family: "roboto Slad";
+                color: #959595;
+            }
+        }
+    }
+    &:hover{
+        div.img-product{
+            div.Buybtn{
+                opacity: 1;
+            }
+        }
+    }
+}
+
+
+// product lager
+div.aproductlager{
+    border: 1px solid #e1e1e1;
+    text-align: center;
+    margin-top: 30px;
+    div.img-product{
+        position: relative;
+        width: 100%;
+        img{
+            display: block;
+            width: 100%;
+            height: auto;
+        }
+        div.Buybtn{
+            position: absolute;
+            top: 0;
+            left: 0;
+            height: 100%;
+            width: 100%;
+            opacity: 0;
+            transition: 0.5s ease;
+            background-color: rgba(0, 0, 0, 0.25);
+            div.buttonbuy{
+                position: absolute;
+                top: 55%;
+                left: 50%;
+                -webkit-transform: translate(-50%, -50%);
+                -ms-transform: translate(-50%, -50%);
+                transform: translate(-50%, -50%);
+                text-align: center;
+            }
+        }
+    }
+    div.detail-product{
+        width: 100%;
+        padding: 18px 0 20px 0;
+        h6{
+            font-family: "arial";
+            color: #555555;
+            margin-bottom: 0;
+        }
+        div.ratings{
+            display: flex;
+            justify-content: center;
+        }
+        span{
+            font-size: 18px;
+            color: #ed1c24;
+            font-family: "roboto Slad";
+            strike{
+                font-size: 14px;
+                font-family: "roboto Slad";
+                color: #959595;
+            }
+        }
+    }
+    &:hover{
+        div.img-product{
+            div.Buybtn{
+                opacity: 1;
+            }
+        }
+    }
+}
+// product buy more
+div.aproductbuymore{
+    border: 1px solid #e1e1e1;
+    div.img-product{
+        float: left;
+        img{
+            width: 100%;
+            height: 100%;
+            padding: 18px;
+        }
+    }
+    div.detail-product{
+        padding: 19.5px;
+        width: 100%;
+        h6{
+            font-family: "arial";
+            color: #555555;
+            margin-bottom: 0;
+        }
+        span{
+            font-size: 14px;
+            color: #ed1c24;
+            font-family: "roboto Slad";
+        }
+    }
+}
+// Buybutton
+div.Buybutton{
+    width: 195px;
+    height: 60px;
+    form.form-inline{
+        width: 100%;
+        div.input-group{
+            width: 100%;
+            .form-control{
+                
+                border-top-left-radius: 50px;
+                border-bottom-left-radius: 50px;
+                border-top-right-radius: 50px;
+                border-bottom-right-radius: 50px;
+                margin-bottom: 0;
+                height: 40px;
+                margin-right: 10px;
+                background-color: #3fb871;
+                color: #ffffff;
+                transition: background-color 1s;
+                &:hover{
+                    background-color: #ffffff;
+                    color: #3fb871;
+                }
+            }
+            .input-group-text{
+                border-top-left-radius: 50px;
+                border-bottom-left-radius: 50px;
+                border-top-right-radius: 50px;
+                border-bottom-right-radius: 50px;
+                width: 100%;
+                margin-bottom: 0;
+                height: 40px;
+                color: #7d7d7d;
+                background-color: #ffffff;
+                transition: background-color 1s;
+                &:hover{
+                    background-color: #3fb871;
+                    color: #ffffff;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,132 @@
+@font-face {
+  font-family: "roboto Slad";
+  src: url("../font/Roboto_Slab/RobotoSlab-VariableFont_wght.ttf"); }
+@font-face {
+  font-family: "roboto italic";
+  src: url("../font/roboto-font/Roboto-Italic.ttf"); }
+@font-face {
+  font-family: "roboto bold";
+  src: url("../font/roboto-font/RobotoCondensed-Bold.ttf"); }
+@font-face {
+  font-family: "arial";
+  src: url("../font/arial.ttf"); }
+.hot-product {
+  margin-top: 50px; }
+  .hot-product .title-hot {
+    margin-bottom: 5px; }
+    .hot-product .title-hot a.title-product-hot {
+      color: #59b568;
+      font-size: 16px;
+      text-decoration: none;
+      font-family: "roboto Slad";
+      font-weight: bold;
+      border-bottom: 3px solid #59b568; }
+    .hot-product .title-hot h2.borderh2 {
+      border-bottom: 1px solid #e1e1e1; }
+
+div.product-buy-more {
+  margin-top: 50px; }
+  div.product-buy-more .title-buy-more a.title-product-buy-more {
+    color: #59b568;
+    text-decoration: none;
+    font-size: 16px;
+    font-family: "roboto Slad";
+    font-weight: bold;
+    border-bottom: 3px solid #59b568; }
+  div.product-buy-more .title-buy-more h2.borderh2 {
+    border-bottom: 1px solid #e1e1e1; }
+  div.product-buy-more ul {
+    margin-top: 30px; }
+    div.product-buy-more ul li {
+      list-style: none; }
+
+div.product-sale {
+  margin-top: 50px;
+  position: relative; }
+  div.product-sale .title-sale a.title-product-sale {
+    color: #59b568;
+    font-size: 16px;
+    text-decoration: none;
+    font-family: "roboto Slad";
+    font-weight: bold;
+    border-bottom: 3px solid #59b568; }
+  div.product-sale .title-sale h2.borderh2 {
+    border-bottom: 1px solid #e1e1e1;
+    margin-bottom: 0; }
+  div.product-sale .product-slider {
+    margin-left: -15px;
+    margin-right: -15px; }
+    div.product-sale .product-slider .list-slider {
+      padding-left: 15px;
+      padding-right: 15px; }
+    div.product-sale .product-slider .buttons {
+      position: absolute;
+      top: -7px;
+      right: 2%; }
+      div.product-sale .product-slider .buttons .button {
+        background-color: #ffffff;
+        border: 1px solid #c8c8c8;
+        border-radius: 50%;
+        margin-left: 5px; }
+        div.product-sale .product-slider .buttons .button:focus {
+          outline: none; }
+        div.product-sale .product-slider .buttons .button i {
+          padding: 4px 6px;
+          color: #838383; }
+
+.banner {
+  margin-top: 14px; }
+  .banner img {
+    width: 100%; }
+
+div.product-new {
+  margin-top: 50px;
+  position: relative; }
+  div.product-new .title-new a.title-product-new {
+    color: #59b568;
+    font-size: 16px;
+    text-decoration: none;
+    font-family: "roboto Slad";
+    font-weight: bold;
+    border-bottom: 3px solid #59b568; }
+  div.product-new .title-new h2.borderh2 {
+    border-bottom: 1px solid #e1e1e1;
+    margin-bottom: 0; }
+  div.product-new .product-slider {
+    margin-left: -15px;
+    margin-right: -15px; }
+    div.product-new .product-slider .list-slider {
+      padding-left: 15px;
+      padding-right: 15px; }
+    div.product-new .product-slider .buttons {
+      position: absolute;
+      top: -7px;
+      right: 2%; }
+      div.product-new .product-slider .buttons .button {
+        background-color: #ffffff;
+        border: 1px solid #c8c8c8;
+        border-radius: 50%;
+        margin-left: 5px; }
+        div.product-new .product-slider .buttons .button:focus {
+          outline: none; }
+        div.product-new .product-slider .buttons .button i {
+          padding: 4px 6px;
+          color: #838383; }
+
+.news {
+  margin-top: 50px;
+  position: relative;
+  width: 100%; }
+  .news .title-home-new .title-newss {
+    color: #59b568 !important;
+    font-size: 16px;
+    text-decoration: none;
+    font-family: "roboto Slad";
+    font-weight: bold;
+    border-bottom: 3px solid #59b568; }
+  .news .title-home-new .borderh2 {
+    border-bottom: 1px solid #e1e1e1;
+    margin-bottom: 0; }
+  .news .wrap-new {
+    padding-left: 0;
+    padding-right: 0; }

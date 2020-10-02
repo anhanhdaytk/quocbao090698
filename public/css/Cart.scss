@@ -1,0 +1,177 @@
+@font-face{
+    font-family: "arial";
+    src: url("../font/arial.ttf");
+  }
+@mixin button {
+  width: 150px;
+  height: 45px;
+  border: 1px solid #68ba8f;
+  font-family: "arial";
+  border-top-left-radius: 50px;
+  border-bottom-left-radius: 50px;
+  border-top-right-radius: 50px;
+  border-bottom-right-radius: 50px;
+  margin-bottom: 0;
+  margin: 45px 5px 70px 15px;
+  background-color: #3fb871;
+  transition: background-color 1s;
+  text-decoration: none;
+  font-size: 12px;
+  line-height: 35px;
+  color: #ffffff;
+  &:hover{
+    background-color: #ffffff;
+    color: #68ba8f;  
+  }
+}
+@mixin title-total {
+  border-right: 1px solid #ebebeb;
+  padding: 32px;
+  font-family: "arial";
+  font-size: 14px;
+  font-style: bold;
+  color: #68ba8f;
+}
+@mixin total-price{
+  padding: 32px;
+  font-family: "arial";
+  font-size: 14px;
+  font-style: bold;
+  color: #68ba8f;
+}
+.section-cart{
+    margin-bottom: 150px;
+    &__title-cart{
+        margin: 95px 0 75px 0;
+        color: #68ba8f;
+        font-family: "arial";
+        font-style: bold;
+    }  
+    &__table{
+      text-align: center;
+      margin-bottom: 0;
+      border: 1px solid #c2c2c2;
+      td{
+        vertical-align: middle;
+      }
+      .bg-title{
+        background-color: #3fb871;
+        font-size: 14px;
+        font-family: "arial";
+        color: #ffffff;
+        .img-title{
+          width: 190px;
+          padding: 14px 0;
+          border-right: 1px solid #c2c2c2;   
+        }
+        .name-title{
+          width: 270px;
+          padding: 14px 0;
+          border-right: 1px solid #c2c2c2;
+        }
+        .price-title{
+          width: 160px;
+          padding: 14px 0;
+          border-right: 1px solid #c2c2c2;
+        }
+        .qty-title{
+          width: 150px;
+          padding: 14px 0;
+          border-right: 1px solid #c2c2c2;
+        }
+        .total-title{
+          width: 250px;
+          padding: 14px 0;
+          border-right: 1px solid #c2c2c2;
+        }
+        .remove-title{
+          width: 120px;
+          padding: 14px 0;
+          border-right: 1px solid #c2c2c2;
+        }
+      }
+      .cart-content{
+        .cart-image{
+          border-right: 1px solid #ebebeb;
+          img{
+            width: 150px;
+            height: 150px;
+          }
+        }
+        .cart-name{
+          font-family: "arial";
+          color: #68ba8f;
+          border-right: 1px solid #ebebeb;
+        }
+        .cart-price{
+          font-family: "arial";
+          color: #898989;
+          border-right: 1px solid #ebebeb;
+        }
+        .cart-qty{
+          border-right: 1px solid #ebebeb;
+          .inputt{
+            width: 45px;
+            height: 45px;
+            border: 1px solid #c2c2c2;
+            text-align: center;
+            font-size: 18px;
+            font-family: "arial";
+            color: #898989;
+            &:focus{
+              outline: 0;
+            }
+          }
+        }
+        .cart-remove{
+          color: #898989;
+        }
+      }
+    }
+    &__button-cart{
+      .button-cart-group{
+        text-align: right;
+        .btn-form{
+          @include button;
+        }
+      }
+    }
+    &__table-total{
+      border: 1px solid #ebebeb;
+      .total-without-tax{
+        .title-total{
+          @include title-total;
+        }
+        .total-price{
+          @include total-price;
+        }
+      }
+      .total-tax{
+        .title-total{
+          @include title-total;
+        }
+        .total-price{
+          @include total-price;
+        }
+      }
+      .bg-total{
+        background-color: #3fb871;
+        .total-title{
+          @include title-total;
+          color: #ffffff;
+        }
+        .total-price{
+          @include total-price;
+          color: #ffffff;
+        }
+      }
+    }
+    &__button-total{
+      .button-cart-group{
+        text-align: right;
+        .btn-form{
+          @include button;
+        }
+      }
+    }
+  }

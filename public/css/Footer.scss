@@ -1,0 +1,114 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+section.footer{
+    background-color: #313131;
+    div.site-footer{
+        div.one-footer{
+            margin: auto;
+            padding: 35px 0 30px 0;
+            border-bottom: 1px solid  #494949 ;
+            span{
+                font-size: 14px;
+                color: #898989;
+                font-weight: bold;
+            }
+            ul{
+                margin-bottom: 0;
+                display: inline-block;
+                li{
+                    list-style: none;
+                    display: inline-block;
+                    color:  #898989;
+                    margin-left: 20px;
+                }
+            }
+            form{
+                div.input-group{
+                    width: 100%;
+                    .form-control{
+                        border: none;
+                        border-radius: 0;
+                    }
+                    span.input-group-text{
+                        background-color: #3fb871;
+                        i{
+                            color: #ffffff;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    // -------one
+    div.two-footer{
+        margin: auto;
+        padding-top: 50px;
+        border-bottom: 1px solid  #494949 ;
+        ul{
+            li.li-firt{
+                font-size: 14px;
+                color: #59b586;
+                font-weight: bold;
+            }
+            li{
+                list-style: none;
+                color: #b7b7b7;
+                font-size: 12px;
+                line-height: 30px;
+                i{
+                    color:  #3fb871;
+                }
+            }
+        }
+    }
+    // ---------two
+    div.three-footer{
+        padding: 20px 0;
+        ul{ 
+            margin-bottom: 0;
+            display: inline-block;
+            li{
+                display: inline-block;
+                list-style: none;
+                font-size: 12px;
+                color: #b7b7b7;
+                margin: 10px;
+            }
+        }
+        div.ul-right{
+            text-align: right;
+        }
+    }
+    // --------three
+    div.four-footer{
+        text-align: center;
+        background-color: #434343;
+        padding: 8px 0;
+        width: 100%;
+        div{
+            span{
+                color: #ffffff;
+                font-size: 14px;
+            }
+        }
+    }
+    // -------four
+}
+
+
+
+
+// REPONSIVE  <============================================================================================================>
+@media screen and (max-width: 768px) {
+    section.footer{
+        div.three-footer{
+            div.ul-right{
+                text-align: left;
+            }
+        }
+        // --------three
+    }
+}
